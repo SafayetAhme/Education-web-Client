@@ -1,0 +1,31 @@
+[
+    {
+      "_id": 1,
+      "name": "John Smith",
+      "details": "Renowned expert in facial recognition technology with over 10 years of experience.",
+      "title": "Senior Face Recognition ",
+      "bg_image": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+      "_id": 2,
+      "name": "Dr. Emily Davis",
+      "details": "Specializes in biometric security and has published numerous research papers in the field.",
+      "title": "Biometric Security ",
+      "bg_image": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+      "_id": 3,
+      "name": "Prof. Alex Johnson",
+      "details": "Leading authority on deep learning techniques, particularly in the context of face recognition.",
+      "title": "Professor of Deep ",
+      "bg_image": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+      "_id": 4,
+      "name": "Dr. Angela Carter",
+      "details": "Pioneer in the development of advanced facial recognition algorithms.",
+      "title": "Facial Recognition ",
+      "bg_image": "https://swiperjs.com/demos/images/nature-1.jpg"
+    }
+  ]
+  
