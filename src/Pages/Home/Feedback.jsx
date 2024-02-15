@@ -2,7 +2,7 @@
 
 const Feedback = () => {
     return (
-        <div className=" bg-[#040e26] px-12 my-24 gap-12 p-20">
+        <div className=" bg-[#040e26] container mx-auto px-12 my-24 gap-12 p-20">
             <div>
                 <img className="" src="https://i.ibb.co/c16T51P/Group-33.png" alt="" />
             </div>
@@ -12,7 +12,7 @@ const Feedback = () => {
                         <div className="">
                             <h1 className="text-3xl w-[300px] text-white font-bold">What Our <span className="text-blue-600">Students Say</span> About us</h1>
                             <img className="py-4 w-12"  src="https://i.ibb.co/tzDsGZx/Group-36.png" alt="" />
-                            <p className="w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
+                            <p className="lg:w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
                             <hr />
                             <p className=" pt-2 text-xl font-bold text-blue-600 f">Safayet Ahmed</p>
                             <p className="text-white">font end developer</p>
@@ -22,7 +22,7 @@ const Feedback = () => {
                         <div className="">
                             <h1 className="text-3xl text-white w-[300px] font-bold">What Our <span className="text-blue-600">Students Say</span> About us</h1>
                             <img className="py-4 w-12"  src="https://i.ibb.co/tzDsGZx/Group-36.png" alt="" />
-                            <p className="w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
+                            <p className="lg:w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
                             <hr />
                             <p className=" pt-2 text-xl font-bold text-blue-600 f">Safayet Ahmed</p>
                             <p className="text-white">font end developer</p>
@@ -32,7 +32,7 @@ const Feedback = () => {
                         <div className="">
                             <h1 className="text-3xl w-[300px] font-bold text-white">What Our <span className="text-blue-600">Students Say</span> About us</h1>
                             <img className="py-4 w-12"  src="https://i.ibb.co/tzDsGZx/Group-36.png" alt="" />
-                            <p className="w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
+                            <p className="lg:w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
                             <hr />
                             <p className=" pt-2 text-xl font-bold text-blue-600 f">Safayet Ahmed</p>
                             <p className="text-white">font end developer</p>
@@ -42,7 +42,7 @@ const Feedback = () => {
                         <div className="">
                             <h1 className="text-3xl w-[300px] font-bold text-white">What Our <span className="text-blue-600">Students Say</span> About us</h1>
                             <img className="py-4 w-12"  src="https://i.ibb.co/tzDsGZx/Group-36.png" alt="" />
-                            <p className="w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
+                            <p className="lg:w-[500px] pb-2 text-white">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ratione ut eaque molestiae neque, accusamus quos praesentium delectus tempora."</p>
                             <hr />
                             <p className=" pt-2 text-xl font-bold text-blue-600 f">Safayet Ahmed</p>
                             <p className="text-white ">font end developer</p>

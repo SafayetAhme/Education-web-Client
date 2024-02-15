@@ -6,7 +6,7 @@ import UseAddtocart from "../../hooks/UseAddtocart";
 
 
 const Details = () => {
-    
+
     const detail = useLoaderData();
     console.log(detail);
     // console.log(detail.image)
@@ -63,8 +63,8 @@ const Details = () => {
     }
 
     return (
-        <div className="grid grid-cols-2 p-12 gap-8">
-            <div className="w-[540px] h-[440px]">
+        <div className="grid container mx-auto h-screen lg:grid-cols-2 p-12 gap-8">
+            <div className="lg:w-[540px] lg:h-[440px]">
                 <img className="w-full h-full rounded-xl" src={detail?.image} alt="" />
             </div>
             <div>
@@ -73,7 +73,7 @@ const Details = () => {
                 <h1><span className="text-blue-600 text-xl font-bold">{detail?.price}</span></h1>
                 <p className="py-1">{detail?.short_description}</p>
                 <p className="text-green-700 text-xl font-bold">{detail?.total_enrollment}</p>
-                <div className="flex gap-6">
+                <div className="lg:flex gap-6">
                     <button className="text-white bg-blue-600 p-3 mt-4 px-16 rounded-md font-medium hover:bg-green-600">Enroll This Now</button>
                     <button onClick={() => handleaddtocart(detail)} className="text-white bg-blue-600 p-3 mt-4 px-16 rounded-md font-medium hover:bg-green-600">Add to Cart</button>
                 </div>

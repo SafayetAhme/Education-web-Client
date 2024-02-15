@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
 const cart = ({ item }) => {
-    const {_id, name, image, price, total_enrollment, short_description, title } = item;
+    const { _id, name, image, price, total_enrollment, short_description, title } = item;
     return (
-        <div>
+        <div className="">
             <div>
                 <div className=" w-[384px] card card-compact bg-base-100 shadow-xl">
                     <img className="h-[300px] rounded-lg w-full" src={image} alt="Shoes" />

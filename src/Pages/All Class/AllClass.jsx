@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet-async";
 
 const AllClass = () => {
     return (
-        <div>
+        <div className="mx-auto container">
             <Helmet>
                 <title>E-learning / All Class</title>
             </Helmet>

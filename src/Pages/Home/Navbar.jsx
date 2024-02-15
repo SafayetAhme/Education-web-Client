@@ -9,7 +9,7 @@ const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
     const [addcart] = UseAddtocart();
 
-    
+
 
     const handleLogOut = () => {
         logOut()
@@ -33,9 +33,9 @@ const Navbar = () => {
             <div className="badge badge-secondary">+{addcart.length}</div>
         </NavLink></li>
     </>
-
+    
     return (
-        <div>
+        <div className=" container mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -61,7 +61,7 @@ const Navbar = () => {
                 {/*  */}
                 {
                     user ? <>
-                        <div className="dropdown dropdown-end pl-96">
+                        <div className="dropdown dropdown-end pl-60">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
                                     <img alt="Tailwind CSS Navbar component" src="https://i.ibb.co/1R4PkXM/222.png" />

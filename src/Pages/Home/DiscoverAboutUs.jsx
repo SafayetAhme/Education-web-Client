@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const DiscoverAboutUs = () => {
     return (
-        <div>
-            <div className="bg-blue-100 py-20 pt-20 grid px-12 grid-cols-2">
+        <div className="container mx-auto">
+            <div className="bg-blue-100 py-20 pt-20 grid px-12 lg:grid-cols-2">
                 <div className="flex pl-16">
                     <div className="mr-2">
                         <img src="https://i.ibb.co/HYT6D7v/Group-30.png" alt="" />

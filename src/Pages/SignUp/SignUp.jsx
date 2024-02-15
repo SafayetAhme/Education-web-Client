@@ -11,7 +11,7 @@ const SignUp = () => {
     const { createUser, signInWithGoogle } = useContext(AuthContext)
     const navigate = useNavigate();
     const location = useLocation();
-    
+
     const from = location.state?.from?.pathname || "/";
 
     const handleSignUp = e => {
@@ -51,9 +51,9 @@ const SignUp = () => {
     }
 
 
-        // handlelogin with google
-        const handleGoogleSignIn = () => {
-            signInWithGoogle()
+    // handlelogin with google
+    const handleGoogleSignIn = () => {
+        signInWithGoogle()
             .then(result => {
                 console.log(result.user);
                 const userInfo = {
@@ -61,27 +61,27 @@ const SignUp = () => {
                     name: result.user?.displayName
                 }
                 axiosPublic.post('/users', userInfo)
-                .then(res => {
-                    console.log(res.data);
-                    navigate("/");
-                })
+                    .then(res => {
+                        console.log(res.data);
+                        navigate("/");
+                    })
             })
             .catch(error => {
                 console.error(error)
             })
-        }
+    }
 
     return (
-        <div>
+        <div className="container mx-auto">
             <Helmet>
                 <title>E-learning / Sign Up</title>
             </Helmet>
-            <div className=" p-16 pl-36 my-24 justify-between bg-blue-100">
-                <div className="grid grid-cols-2 gap-10">
+            <div className=" p-16 lg:pl-36 my-24 justify-between bg-blue-100">
+                <div className="grid lg:grid-cols-2 gap-10">
 
                     <div className="w-full " style={{ backgroundImage: 'url(https://i.ibb.co/y00bZnx/il.jpg)' }}>
                         <h1 className=" bg-black pb-4 text-white font-bold pt-10 text-3xl text-center">Welcome bakc!</h1>
-                        <div className="text-center pl-28 w-[400px] mt-48 bg-[#09182acc]">
+                        <div className="text-center pl-28 lg:w-[400px] mt-48 bg-[#09182acc]">
                             <p className="text-xl text-white py-4 pr-4">Learn From Us! Best Instruntors Around The World</p>
                         </div>
                     </div>

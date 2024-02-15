@@ -13,13 +13,13 @@ import 'swiper/css/pagination';
 const ReviewTwo = () => {
   const [reviews, setReviews] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/reviews')
+    fetch('https://y-tau-jade.vercel.app/reviews')
       .then(res => res.json())
       .then(data => setReviews(data))
   }, [])
 
   return (
-    <div className="mb-10" >
+    <div className="mb-10 container mx-auto" >
       <Swiper
         effect={'cube'}
         grabCursor={true}

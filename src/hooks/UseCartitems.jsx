@@ -8,7 +8,7 @@ const UseCartitems = () => {
     // const [cart, setcart] = useState([]);
     // const [loading, setLoading] = useState(true);
     // useEffect(() => {
-    //     fetch('http://localhost:5000/cart')
+    //     fetch('https://y-tau-jade.vercel.app/cart')
     //         .then(res => res.json())
     //         .then(data => {
     //             setcart(data);

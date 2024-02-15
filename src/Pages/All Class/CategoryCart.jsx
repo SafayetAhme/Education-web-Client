@@ -14,9 +14,10 @@ const CategoryCart = () => {
     const GraphicDesign = menu.filter(item => item.category === 'GraphicDesign');
     const Photography = menu.filter(item => item.category === 'Photography');
     const DigitalMarketing = menu.filter(item => item.category === 'DigitalMarketing');
+
     return (
-        <div>
-            <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+        <div className='grid grid-cols-1'>
+            <Tabs className="">
                 <TabList>
                     <Tab>Programming</Tab>
                     <Tab>Data Science</Tab>
@@ -28,16 +29,16 @@ const CategoryCart = () => {
                     <AllCarts items={Programming}></AllCarts>
                 </TabPanel>
                 <TabPanel>
-                <AllCarts items={DataScience}></AllCarts>
+                    <AllCarts items={DataScience}></AllCarts>
                 </TabPanel>
                 <TabPanel>
-                <AllCarts items={GraphicDesign}></AllCarts>
+                    <AllCarts items={GraphicDesign}></AllCarts>
                 </TabPanel>
                 <TabPanel>
-                <AllCarts items={Photography}></AllCarts>
+                    <AllCarts items={Photography}></AllCarts>
                 </TabPanel>
                 <TabPanel>
-                <AllCarts items={DigitalMarketing}></AllCarts>
+                    <AllCarts items={DigitalMarketing}></AllCarts>
                 </TabPanel>
             </Tabs>
 

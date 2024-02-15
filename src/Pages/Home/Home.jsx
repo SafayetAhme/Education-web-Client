@@ -12,10 +12,11 @@ import UseCartitems from "../../hooks/UseCartitems";
 
 const Home = () => {
     const [menu] = UseCartitems();
-    const popular = menu.filter(item => item.category === 'Programming');
+    const popular = menu.filter(item => item.category === 'DigitalMarketing');
 
     return (
-        <div><Helmet>
+        <div className="mx-auto">
+            <Helmet>
                 <title>E-learning / Home</title>
             </Helmet>
             <Helmet>
@@ -24,7 +25,7 @@ const Home = () => {
             <Hero></Hero>
             <TrustedCompany></TrustedCompany>
             <DiscoverAboutUs></DiscoverAboutUs>
-            <div className="grid grid-cols-3 px-12">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-12 container mx-auto">
                 {
                     popular.map(item => <Cart key={item._id} item={item}></Cart>)
                 }
